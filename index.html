@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio webside</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/35cf3b5641.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text"> 
+                <p>Data Scientist</p>
+                <h1>Hi, I'm <spam>Kawya</spam> Ramadeera <br>From Sri Lanka</h1>
+            </div>
+        </div>
+    </div>
+    <!----------about----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a Data Science enthusiast currently pursuing a Bachelor of Business Management (Hons) with a specialization in Data Science. I am passionate about leveraging data to solve real-world problems and uncover actionable insights. My academic journey has equipped me with a strong foundation in Python programming, data analysis, and machine learning, enabling me to work with complex datasets and derive meaningful patterns.
+
+                        I enjoy diving deep into data to drive business decisions, automate processes, and create predictive models. Beyond academics, I am committed to continuous learning, exploring new tools and techniques to stay at the forefront of the ever-evolving field of data science. When I'm not analyzing data, I like to unwind with creative hobbies that challenge my analytical thinking and creativity.
+                        </p>
+
+<div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab">
+                            <ul>
+                                <li><span>Data analysis</span><br>Analyzing data</li>
+                                <li><span>Machine Learning</span><br>Analyzing</li>
+                                <li><span>Artificial intelligence</span><br>algorithms</li>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021 - Current</span><br>UI/UX Desing Training at ET Institute</li>
+                                <li><span>2019 - 2021</span><br>Team lEAD AT StarApp LLC.</li>
+                                <li><span>2017 - 2019</span><br>Internship at ekart eCommerce.</li>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2016</span><br>UI/UX Desing Training at ET Institute</li>
+                                <li><span>2016</span><br>MBA from MIT Bangalore.</li>
+                                <li><span>2014</span><br>BBA from ISM Bangalore.</li>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------services----------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Desing</h2>
+                <p></p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Desing</h2>
+                <p></p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Desing</h2>
+                <p></p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------portfolio-------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+                <div class="work-list1">
+                <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you the talented people 
+                        around the world.
+                        Download it from play store.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work-list1">
+                <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you the talented people 
+                        around the world.
+                        Download it from play store.</p>
+                         <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work-list1">
+                    <img src="work-3.png">
+                        <div class="layer">
+                            <h3>Online Shopping App</h3>
+                            <p>The app connects you the talented people 
+                            around the world.
+                            Download it from play store.</p>
+                                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                </div>
+        </div>
+
+<a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!--------------contact------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>imeshdananjaya71@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0770585929</p>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/imesh.dananjaya.717"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/imesh_premakeerthi/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/imesh-dananjaya-a68300310/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="My.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Yor Name" required>
+                    <input type="email" name="email" placeholder="Yor Email" required>
+                    <textarea name="Message" rows="6" placeholder="Yor message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");      
+        }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>
